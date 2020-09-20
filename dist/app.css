@@ -1,14 +1,38 @@
 body {
+    background-image:linear-gradient(rgba(8, 43, 115, .19),rgba(56, 71, 142, .12)), url(https://thumbs.gfycat.com/AcceptableThornyHorseshoebat.webp);
     background-color: lightblue;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
     margin: 0;
     font-family: verdana;
   }
   .active {
-    background-color: #4CAF50;
+    background-color: #4CAF5;
   }
   main {
     padding-left: 20px;
     }
+article{
+  opacity: 85%;
+  margin-top: 4.5em;
+  background-color: #C0C0C0;
+  padding: 15px;
+  border-radius: 15px;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+main{
+  opacity: 85%;
+  margin-top: 4.5em;
+  background-color: #C0C0C0;
+  padding: 20px;
+  border-radius: 15px;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,12 +56,14 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  
   li a:hover {
     background-color: #111;
   }
 
   footer {
+     opacity: 80%;
+    padding: 10px;
     background-color: #111;
     color: white;
     position: fixed;

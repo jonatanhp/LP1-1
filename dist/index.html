@@ -9,29 +9,22 @@
 </head>
 
 <body>
-  <nav >
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li style="float:right"><a class="active" href="#about">About</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h1>Apples</h1>
-    <p>The apple is the pomaceous fruit of the apple tree.</p>
-    
-    <article>
-      <h2>Red Delicious</h2>
-      <p>These bright red apples are the most common found in many
-      supermarkets.</p>
-      <p>... </p>
-      <p>... </p>
-    </article>
+  <form id="formTask">
+    <div >
+      <label for="">Ingrese tarea: </label>
+      <input type="text" id="title" placeholder="tarea" >
+    </div>
+
+    <div>
+      <textarea id="description" placeholder="description"  ></textarea>
+    </div>
+    <button type="submit" >Save</button>
+  </form>
+
+  <div id="tasksv"></div>
   
-  
-  </main>
-  <footer>Footer</footer>
+ 
+  <script src="./app.js"></script>
 
 </body>
 </html>
